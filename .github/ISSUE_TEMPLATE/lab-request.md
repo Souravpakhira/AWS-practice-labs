@@ -45,13 +45,6 @@ What do you aim to achieve by completing this lab? Outline the learning objectiv
 - [ ] AWS Lambda
 - [ ] Other (Specify): [Specify Services]
 
-### Any Specific Terraform Concepts or Features to Include?
-
-- [ ] Variables
-- [ ] Modules
-- [ ] Remote State
-- [ ] Other (Specify): [Specify Terraform Concepts/Features]
-
 ### Additional Comments or Requirements
 
 Are there any specific requirements, constraints, or preferences you have for this lab? For example, certain AWS regions, constraints on resource types, etc.
