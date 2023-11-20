@@ -59,4 +59,11 @@ Confirm the destruction when prompted.
 
 Feel free to contribute to this repository by adding new labs, improving existing ones, or providing feedback. Create a pull request with your changes, and we'll review it.
 
+## ⭐ Star the Repository
+
+If you find these hands-on labs helpful and valuable, please consider giving this repository a star! ⭐ Your support is greatly appreciated and helps others discover and benefit from these resources.
+
+**Thank you for your support!**
+
 Happy learning and practicing with AWS!
+
