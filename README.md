@@ -12,6 +12,8 @@ Before you begin, make sure you have the following prerequisites:
 2. **AWS Access Key ID and Secret Access Key**: Obtain your AWS access key ID and secret access key from the AWS Management Console. Follow the steps [here](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) to create or retrieve them.
 
 3. **Terraform Installation**: Ensure that Terraform is installed on your local machine. You can download Terraform from the official website [here](https://www.terraform.io/downloads.html) and follow the installation instructions.
+
+
 ## Getting Started
 
 1. Clone this repository to your local machine:
@@ -26,23 +28,25 @@ git clone https://github.com/Souravpakhira/AWS-practice-labs.git
 cd AWS-practice-labs
 ```
 
-3. Update the terraform.tfvars file with your AWS access key ID and secret access key.
+3. Change into the specific lab directory (e.g., fundamentals/lab1-vpc)
+```bash
+cd fundamentals/lab1-vpc
+```
+4. Update the terraform.tfvars file with your AWS access key ID and secret access key.
 
 ```hcl
-# terraform.tfvars
-
 aws_access_key = "YOUR_ACCESS_KEY"
 aws_secret_key = "YOUR_SECRET_KEY"
 ```
 
-4. Change into the specific lab directory (e.g., fundamentals/lab1-vpc) and initialize Terraform:
+5. Initialize Terraform:
 
 ```bash
-cd fundamentals/lab1-vpc
+
 terraform init
 ```
 
-5. Apply the Terraform configuration:
+6. Apply the Terraform configuration:
 
 ```bash
 terraform apply
